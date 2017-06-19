@@ -1,7 +1,7 @@
 package cmd
 
 import (
-	"github.com/fuxiaohei/GoBlog/app/model"
+	"github.com/luopengift/goblog/app/model"
 	"github.com/fuxiaohei/GoInk"
 	"sort"
 	"strconv"
@@ -22,7 +22,7 @@ func CheckUpgrade(v int, print bool) bool {
 	appV := model.GetVersion()
 	b := v > appV.Version
 	if b && print {
-		println("app version @ " + strconv.Itoa(v) + " is ahead of current version @ " + strconv.Itoa(appV.Version) + " , please run 'GoBlog upgrade'")
+		println("app version @ " + strconv.Itoa(v) + " is ahead of current version @ " + strconv.Itoa(appV.Version) + " , please run 'goblog upgrade'")
 	}
 	return b
 }

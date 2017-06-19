@@ -1,8 +1,8 @@
 package handler
 
 import (
-	"github.com/fuxiaohei/GoBlog/app/model"
-	"github.com/fuxiaohei/GoBlog/app/utils"
+	"github.com/luopengift/goblog/app/model"
+	"github.com/luopengift/goblog/app/utils"
 	"github.com/fuxiaohei/GoInk"
 	"strings"
 	"time"

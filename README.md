@@ -4,8 +4,8 @@
 
 一款动态博客引擎，基于 golang语言 开发的 [GoInk](https://github.com/fuxiaohei/GoInk) Web框架开发。
 
-[![Build Status](https://drone.io/github.com/fuxiaohei/GoBlog/status.png)](https://drone.io/github.com/fuxiaohei/GoBlog/latest)
-[![GoWalker](http://b.repl.ca/v1/Go_Walker-API_Documentation-green.png)](http://gowalker.org/github.com/fuxiaohei/GoBlog)
+[![Build Status](https://drone.io/github.com/luopengift/goblog/status.png)](https://drone.io/github.com/luopengift/goblog/latest)
+[![GoWalker](http://b.repl.ca/v1/Go_Walker-API_Documentation-green.png)](http://gowalker.org/github.com/luopengift/goblog)
 
 当前版本 **0.2.5** ( 2014.02.28 )
 
@@ -26,7 +26,7 @@
 
 [Gobuild.io](http://gobuild.io/) 支持跨平台编译纯go项目。 点击图标可以下载对应版本的二进制包，并立刻直接运行。
 
-[![Gobuild Download](http://gobuild.io/badge/github.com/fuxiaohei/GoBlog/download.png)](http://gobuild.io/github.com/fuxiaohei/GoBlog)
+[![Gobuild Download](http://gobuild.io/badge/github.com/luopengift/goblog/download.png)](http://gobuild.io/github.com/luopengift/goblog)
 
 二进制文件不需要go语言编译环境。
 
@@ -34,16 +34,16 @@
 
 使用 go get 命令:
 
-    go get github.com/fuxiaohei/GoBlog
+    go get github.com/luopengift/goblog
 
-可以编译出 `GoBlog(.exe)` ，保存在 `$GOPATH/bin`。
+可以编译出 `goblog(.exe)` ，保存在 `$GOPATH/bin`。
 
 ### 运行
 
 创建一个新文件夹运行 `Fxh.Go`:
 
     cd new_dir
-    Goblog
+    goblog
 
 博客将自解压静态文件到文件夹 `new_dir` , 初始化默认数据，并开始监听 `localhost:9001`。
 

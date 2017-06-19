@@ -1,7 +1,7 @@
 package app
 
 import (
-	"github.com/fuxiaohei/GoBlog/app/utils"
+	"github.com/luopengift/goblog/app/utils"
 	"io/ioutil"
 	"os"
 	"path"
